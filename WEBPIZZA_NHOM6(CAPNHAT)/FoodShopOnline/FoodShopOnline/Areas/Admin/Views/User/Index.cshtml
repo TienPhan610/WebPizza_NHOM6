@@ -1,0 +1,93 @@
+﻿@model PagedList.IPagedList<Model.EnityFramework.User>
+@using PagedList.Mvc;
+@{
+    /**/
+
+    ViewBag.Title = "Quản lý người dùng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+
+@section header{
+    Danh sách người dùng
+}
+@section jsFooter{
+    <script src="/content/admin/js/controller/userController.js"></script>
+}
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Danh sách người dùng</h6>
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm("Index", "User", FormMethod.Get))
+        {
+            <div class="row form-group">
+                <div class="col-lg-12">
+                    <div class="col-md-4">
+                        <input type="text" value="@ViewBag.SearchString" class="form-control" name="searchString" />
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-success">Tìm kiếm</button>
+                        <a class="btn btn-primary" href="/Admin/User/Create">Thêm mới</a>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Tài khoản</th>
+                        <th>Tên</th>
+                        <th>Địa chỉ</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Quyền</th>
+                        <th>Status</th>
+                        <th>#</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+
+                        <th>Tài khoản</th>
+                        <th>Tên</th>
+                        <th>Địa chỉ</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Quyền</th>
+                        <th>Status</th>
+                        <th>#</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr id="row_@item.ID">
+
+                            <td>@item.UserName</td>
+                            <td>@item.Name</td>
+                            <td>@item.Address</td>
+                            <td>@item.Email</td>
+                            <td>@item.Phone</td>
+                            <td>@item.GroupID</td>
+                            <td><a href="#" class="btn-active" data-id="@item.ID">@(item.Status ? "Kích hoạt" : "Khóa")</a></td>
+                            <td>
+                                <a href="~/Admin/User/Edit/@item.ID">Sửa</a>
+                                |
+                                @Ajax.ActionLink("Xóa", "Delete", new { @id = item.ID }, new AjaxOptions
+                           {
+                               Confirm = "Bạn có muốn xóa tài khoản này không?",
+                               OnComplete = "$('#row_"+@item.ID+"').remove()",
+                               HttpMethod = "Delete"
+                           })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            @Html.PagedListPager(Model, Page => Url.Action("Index", new { Page, @searchString = @ViewBag.SearchString }))
+        </div>
+    </div>
+</div>
+<!-- /.container-fluid -->

@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Pizza";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Model.EnityFramework;
+@model List<Product>
+<div class="pizza">
+    <br />
+    <p>PIZZA</p>
+    <hr>
+    @foreach (var item in Model)
+    {
+        <div class="responsive">
+            <div class="gallery">
+                <a href="/ProductDetails/MiYTomXucXich">
+                    <img src="@item.Image">
+                </a>
+                <div class="desc">@item.Name</div>
+                <div class="gia">@item.Price</div>
+                <div class="add-actions">
+                    <ul class="add-actions-link" style="background-color: darkgray">
+                        <li class="add-cart active"><a href="/Cart/AddItem?productId=@item.ID&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    }
+
+
+    <div class="clearfix"></div>
+    <div style="padding:6px;"></div>
+    <div class="gototop">
+        <button onclick="topFunction()" id="myBtn" title="Về đầu trang"> <i class="fas fa-arrow-up"></i></button>
+    </div>
+</div>
+

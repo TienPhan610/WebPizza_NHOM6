@@ -1,0 +1,198 @@
+div.dkdnpage input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+div.dkdnpage input[type=username] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+div.dkdnpage input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+div.dkdnpage input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+div.dkdnpage input[type=submit] {
+    width: 100%;
+    background-color: #04354c;
+    color: white;
+    padding: 14px 20px;
+    margin: 30px 15px 0px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+div.dkdnpage input[type=checkbox] {
+
+    padding: 14px 20px;
+    margin: 30px 0 0 0 ;  
+
+}
+div.dkdnpage .abc {
+    text-align: center;
+}
+div.dkdnpage .abc input[type=reset] {
+    width: auto;
+    background-color: #04354c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    clear: both;
+}
+div.dkdnpage input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 500;
+    
+}
+
+div.dkdnpage .abc a.t1 {
+    width: auto;
+    background-color: #04354c;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+div.dkdnpage .abc a.t2 {
+    width: auto;
+    background-color: #04354c;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+div.dkdnpage a.t1:hover{
+    clear: both;
+    color: red;
+    text-decoration: none;
+}
+div.dkdnpage a.t2:hover{
+    clear: both;
+    color: red;
+    text-decoration: none;
+}
+
+div.dkdnpage p{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    color: red;
+    text-align: center; 
+}
+
+
+div.dkdnpage input[type=submit]:hover{
+    background-color: red;
+}
+div.dkdnpage input[type=reset]:hover{
+    color: red;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.dkdnpage {
+    border-radius: 10px;
+    background-color: rgb(211, 208, 208);
+    padding: 30px;
+    font-size: 19px;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #04354c;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+
+div.dkdnpage label{
+    margin: 15px 0 0 0;
+}
+div.dkdnpage a{
+
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box; 
+    font-weight: 500;  
+}
+div.dkdnpage a:hover{
+    text-decoration: none;
+}
+
+main{
+    padding-top: 1ex;
+    padding-bottom: 2ex;
+    margin-left:  32%;
+    margin-right: 32%;
+
+}
+/*div.loginpage input[type=text1] {
+    width: 45%;
+    background-color: #04354c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+div.loginpage input[type=text2] {
+    width: 27%;
+    background-color: #04354c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}*/

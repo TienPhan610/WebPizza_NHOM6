@@ -1,0 +1,51 @@
+﻿@model List<Model.EnityFramework.OrderDetail>
+@{
+    ViewBag.Title = "OrderDetail";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+@section header{
+    Chi Tiết Đơn Hàng
+}
+<div class="card shadow mb-4">
+    <div class="card-body">
+        <a class="btn btn-primary" href="/Admin/Bill/Index">Thông Tin Người Mua</a>
+        <a class="btn btn-primary" href="#">Chi Tiết Đơn Hàng</a>
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>OrderID</th>
+                        <th>ProductID</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>OrderID</th>
+                        <th>ProductID</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.OrderID</td>
+                            <td>@item.ProductID</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.Price</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+

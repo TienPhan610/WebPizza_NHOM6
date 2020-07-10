@@ -1,0 +1,32 @@
+D:\FoodShopOnline\Model\bin\Debug\Model.dll.config
+D:\FoodShopOnline\Model\bin\Debug\Model.dll
+D:\FoodShopOnline\Model\bin\Debug\Model.pdb
+D:\FoodShopOnline\Model\bin\Debug\EntityFramework.dll
+D:\FoodShopOnline\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\FoodShopOnline\Model\bin\Debug\PagedList.dll
+D:\FoodShopOnline\Model\bin\Debug\PagedList.Mvc.dll
+D:\FoodShopOnline\Model\bin\Debug\EntityFramework.xml
+D:\FoodShopOnline\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\FoodShopOnline\Model\bin\Debug\PagedList.xml
+D:\FoodShopOnline\Model\bin\Debug\PagedList.Mvc.xml
+D:\FoodShopOnline\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\FoodShopOnline\Model\obj\Debug\Model.csproj.CopyComplete
+D:\FoodShopOnline\Model\obj\Debug\Model.dll
+D:\FoodShopOnline\Model\obj\Debug\Model.pdb
+D:\FoodShopOnline\Model\obj\Debug\Model.csprojAssemblyReference.cache
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\Model.dll.config
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\Model.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\Model.pdb
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\EntityFramework.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\PagedList.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\PagedList.Mvc.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\EntityFramework.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\PagedList.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\bin\Debug\PagedList.Mvc.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\obj\Debug\Model.csprojAssemblyReference.cache
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\obj\Debug\Model.csproj.CopyComplete
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\obj\Debug\Model.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\Model\obj\Debug\Model.pdb

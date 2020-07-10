@@ -1,0 +1,51 @@
+﻿@model List<FoodShopOnline.Models.CartItem>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+
+    <script src="~/content/client/controller/CartController.js"></script>
+}
+<div class="content">
+    <div class="section group">
+        @if (Model.Count > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Mã SP</td>
+                        <td>Tên SP</td>
+                        <td>Ảnh SP</td>
+                        <td>Số lượng</td>
+                        <td>Đơn giá</td>
+                        <td>Thành tiền</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Product.ID</td>
+                            <td>@item.Product.Name</td>
+                            <td><img src="@item.Product.Image" width="100" /></td>
+                            <td><input type="text" class="txtQuantity" data-id="@item.Product.ID" value="@item.Quantity" /></td>
+                            <td>@item.Product.Price.ToString("N0")</td>
+                            <td>@((item.Product.Price * item.Quantity).ToString("N0"))</td>
+                            <td><a href="#" class="btn-delete" data-id="@item.Product.ID">Xóa</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <button id="btnContinue" class="btn" style="font-size: 15px">Tiếp tục mua hàng</button>
+            <button id="btnUpdate" class="btn" style="font-size: 15px">Cập nhập giỏ hàng</button>
+            <button id="btnDeleteAll" class="btn" style="font-size: 15px">Xóa giỏ hàng</button>
+            <button id="btnPayment" class="btn" style="font-size: 15px">Thanh toán</button>
+        }
+        else
+        {
+            <span class="alert alert-danger" style="font-size: 20px">Chưa có sản phẩm nào trong giỏ hàng</span>
+        }
+    </div>
+</div>

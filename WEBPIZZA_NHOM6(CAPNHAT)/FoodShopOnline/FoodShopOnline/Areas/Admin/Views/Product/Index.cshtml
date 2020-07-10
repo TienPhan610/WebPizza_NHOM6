@@ -1,0 +1,69 @@
+﻿@model List<Model.EnityFramework.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+@section header{
+    Sản Phẩm
+}
+<div class="card shadow mb-4">
+    <div class="card-body">
+        <a class="btn btn-primary" href="/Admin/Product/Create">Thêm mới</a>
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Alias</th>
+                        <th>CategoryID</th>
+                        <th>Price</th>
+                        <th>Description</th>
+                        <th>CreatedDate</th>
+                        <th>CreatedBy</th>
+                        <th>Status</th>
+                        <th>#</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Alias</th>
+                        <th>CategoryID</th>
+                        <th>Price</th>
+                        <th>Description</th>
+                        <th>CreatedDate</th>
+                        <th>CreatedBy</th>
+                        <th>Status</th>
+                        <th>#</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr id="row_@item.ID">
+                            <td>@item.Name</td>
+                            <td>@item.Alias</td>
+                            <td>@item.CategoryID</td>
+                            <td>@item.Price</td>
+                            <td>@item.Description</td>
+                            <td>@item.CreatedDate</td>
+                            <td>@item.CreatedBy</td>
+                            <td>@item.Status</td>
+                            <td>
+                                <a href="~/Admin/Product/Edit/@item.ID">Sửa</a>
+                                |
+                                @Ajax.ActionLink("Xóa", "Delete", new { @id = item.ID }, new AjaxOptions
+                           {
+                               Confirm = "Bạn có muốn xóa tài khoản này không?",
+                               OnComplete = "$('#row_"+@item.ID+"').remove()",
+                               HttpMethod = "Delete"
+                           })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

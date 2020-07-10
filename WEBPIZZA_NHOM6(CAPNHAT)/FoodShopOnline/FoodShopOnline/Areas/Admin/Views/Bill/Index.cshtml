@@ -1,0 +1,62 @@
+﻿@model List<Model.EnityFramework.Order>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+@section header{
+    Thông Tin Người Mua
+    }
+<div class="card shadow mb-4">
+    <div class="card-body">
+        <a class="btn btn-primary" href="#">Thông Tin Người Mua</a>
+        <a class="btn btn-primary" href="/Admin/Bill/OrderDetail">Chi Tiết Đơn Hàng</a>
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>CustomerID</th>
+                        <th>CustomerName</th>
+                        <th>CustomerAdress</th>
+                        <th>CustomerEmail</th>
+                        <th>CustomerMobie</th>
+                        <th>CreatedDate</th>
+                        <th>PaymentMethod</th>
+                        <th>PaymentStatus</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>CustomerID</th>
+                        <th>CustomerName</th>
+                        <th>CustomerAdress</th>
+                        <th>CustomerEmail</th>
+                        <th>CustomerMobie</th>
+                        <th>CreatedDate</th>
+                        <th>PaymentMethod</th>
+                        <th>PaymentStatus</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr id="row_@item.ID">
+                            <td>@item.CustomerID</td>
+                            <td>@item.CustomerName</td>
+                            <td>@item.CustomerAddress</td>
+                            <td>@item.CustomerEmail</td>
+                            <td>@item.CustomerMobile</td>
+                            <td>@item.CreatedDate</td>
+                            <td>@item.PaymentMethod</td>
+                            <td>@item.PaymentStatus</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+

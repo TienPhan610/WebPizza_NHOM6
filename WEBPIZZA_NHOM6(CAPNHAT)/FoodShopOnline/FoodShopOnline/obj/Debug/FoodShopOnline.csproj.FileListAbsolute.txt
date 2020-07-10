@@ -1,0 +1,182 @@
+D:\FoodShopOnline\FoodShopOnline\bin\FoodShopOnline.dll.config
+D:\FoodShopOnline\FoodShopOnline\bin\FoodShopOnline.dll
+D:\FoodShopOnline\FoodShopOnline\bin\FoodShopOnline.pdb
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\csc.exe
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\csc.exe.config
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\csc.rsp
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\csi.exe
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\csi.exe.config
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\csi.rsp
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.Managed.Core.targets
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.AppContext.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Collections.Immutable.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Console.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.Compression.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.FileSystem.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.Pipes.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Reflection.Metadata.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.AccessControl.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Claims.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Principal.Windows.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.ValueTuple.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Xml.XmlDocument.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Xml.XPath.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\vbc.exe
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\vbc.exe.config
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\vbc.rsp
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\VBCSCompiler.exe
+D:\FoodShopOnline\FoodShopOnline\bin\roslyn\VBCSCompiler.exe.config
+D:\FoodShopOnline\FoodShopOnline\bin\Antlr3.Runtime.dll
+D:\FoodShopOnline\FoodShopOnline\bin\EntityFramework.dll
+D:\FoodShopOnline\FoodShopOnline\bin\EntityFramework.SqlServer.dll
+D:\FoodShopOnline\FoodShopOnline\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\FoodShopOnline\FoodShopOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FoodShopOnline\FoodShopOnline\bin\Microsoft.Web.Infrastructure.dll
+D:\FoodShopOnline\FoodShopOnline\bin\Model.dll
+D:\FoodShopOnline\FoodShopOnline\bin\Newtonsoft.Json.dll
+D:\FoodShopOnline\FoodShopOnline\bin\PagedList.dll
+D:\FoodShopOnline\FoodShopOnline\bin\PagedList.Mvc.dll
+D:\FoodShopOnline\FoodShopOnline\bin\System.Diagnostics.DiagnosticSource.dll
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.Helpers.dll
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.Mvc.dll
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.Optimization.dll
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.Razor.dll
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.Deployment.dll
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.dll
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.Razor.dll
+D:\FoodShopOnline\FoodShopOnline\bin\WebGrease.dll
+D:\FoodShopOnline\FoodShopOnline\bin\Model.pdb
+D:\FoodShopOnline\FoodShopOnline\bin\Model.dll.config
+D:\FoodShopOnline\FoodShopOnline\bin\EntityFramework.xml
+D:\FoodShopOnline\FoodShopOnline\bin\EntityFramework.SqlServer.xml
+D:\FoodShopOnline\FoodShopOnline\bin\PagedList.xml
+D:\FoodShopOnline\FoodShopOnline\bin\PagedList.Mvc.xml
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.Helpers.xml
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.Mvc.xml
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.Optimization.xml
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.Razor.xml
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.xml
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.Deployment.xml
+D:\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.Razor.xml
+D:\FoodShopOnline\FoodShopOnline\bin\Newtonsoft.Json.xml
+D:\FoodShopOnline\FoodShopOnline\bin\Antlr3.Runtime.pdb
+D:\FoodShopOnline\FoodShopOnline\bin\System.Diagnostics.DiagnosticSource.xml
+D:\FoodShopOnline\FoodShopOnline\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\FoodShopOnline\FoodShopOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.csprojAssemblyReference.cache
+D:\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.csproj.CoreCompileInputs.cache
+D:\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.csproj.CopyComplete
+D:\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.dll
+D:\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.pdb
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\FoodShopOnline.dll.config
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\FoodShopOnline.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\FoodShopOnline.pdb
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\csc.exe
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\csc.exe.config
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\csc.rsp
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\csi.exe
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\csi.exe.config
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\csi.rsp
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.Managed.Core.targets
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.AppContext.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Collections.Immutable.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Console.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.Compression.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.FileSystem.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.IO.Pipes.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Reflection.Metadata.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.AccessControl.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Claims.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Security.Principal.Windows.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.ValueTuple.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Xml.XmlDocument.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Xml.XPath.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\vbc.exe
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\vbc.exe.config
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\vbc.rsp
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\VBCSCompiler.exe
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\roslyn\VBCSCompiler.exe.config
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Antlr3.Runtime.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\EntityFramework.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\EntityFramework.SqlServer.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Microsoft.Web.Infrastructure.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Model.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Newtonsoft.Json.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\PagedList.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\PagedList.Mvc.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Diagnostics.DiagnosticSource.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.Helpers.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.Mvc.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.Optimization.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.Razor.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.Deployment.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.Razor.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\WebGrease.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Model.pdb
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Model.dll.config
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\EntityFramework.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\EntityFramework.SqlServer.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\PagedList.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\PagedList.Mvc.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.Helpers.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.Mvc.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.Optimization.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.Razor.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.Deployment.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Web.WebPages.Razor.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Newtonsoft.Json.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Antlr3.Runtime.pdb
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\System.Diagnostics.DiagnosticSource.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.csprojAssemblyReference.cache
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.csproj.CoreCompileInputs.cache
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.csproj.CopyComplete
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.dll
+E:\THUONGMAIDIENTU\CUOIKY\Đồ án cuối kì\FoodShopOnline\FoodShopOnline\FoodShopOnline\obj\Debug\FoodShopOnline.pdb
