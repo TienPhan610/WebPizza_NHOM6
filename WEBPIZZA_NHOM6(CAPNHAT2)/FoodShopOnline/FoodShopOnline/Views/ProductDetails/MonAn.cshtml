@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "MonAn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" type="text/css" href="~/content/client/info.css" />
+<div class="pz1">
+    <hr>
+
+    <div class=container>
+        <div class="picture">
+            <div class="miycom"> <img src="@ViewBag.monan.Image"></div>
+            <div class="gia">@ViewBag.monan.Price</div>
+            <div class="add-actions">
+                <button id="GK00" data-name="@ViewBag.monan.Name" data-price="@ViewBag.monan.Price" class="add-to-cart btn btn-primary">
+                    <i class="add-cart active"><a href="/Cart/AddItem?productId=@ViewBag.monan.ID&quantity=1">Đặt Hàng Ngay</a></i>
+                </button>
+            </div>
+        </div>
+        <div class="detail">
+            <div class="desc">@ViewBag.monan.Name</div>
+            <div class="text">
+                <p> Chi tiết sản phẩm:<br /></p>
+                <div class="thanhphan">
+                    &nbsp;&nbsp;* Trạng thái: @if (ViewBag.monan.Status)
+                    {<p1 style="color:red">Còn hàng.</p1><br />}
+                    else
+                    { <p1 style="color:red">Hết hàng.</p1><br />}
+                    <div class="khuyenmai">
+                        <p>Khuyến mãi:</p>
+                        <div class="chitietkm">
+                            <i class="fas fa-check-circle"></i> Giảm ngay 5.000đ khi đặt chung với 1 pizza bất kì.<br />
+                            <i class="fas fa-check-circle"></i> Nhận hàng trong vòng 30p.<br />
+                            <i class="fas fa-check-circle"></i> Giảm 40% khi thanh toán qua ZaloPay.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

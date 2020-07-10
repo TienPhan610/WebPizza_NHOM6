@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Model.EnityFramework.Product>
+@{
+    ViewBag.Title = "KhuyenMai";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pizza">
+    <br />
+
+    @using (Html.BeginForm("MonAnKem1_Category", "Category", FormMethod.Get))
+    {
+        <p>KHUYẾN MÃI</p>
+
+        <select name="sort" id="sort">
+            <option value="sort">Sắp xếp</option>
+            <option value="1">Giá tăng dần</option>
+            <option value="-1">Giá giảm dần</option>
+        </select>
+        <button type="submit"><i class="fas fa-search fa-2x"></i></button>
+
+    }
+
+    <hr>
+    @foreach (var item in Model)
+    {
+        @*string linkHinh = "~/Images/" + item.HinhAnh + ".jpg";
+            <div class="responsive" id=@item .>
+                <div class="gallery">
+                    <a href="info veggiemania.html"><img src=@Url.Content(linkHinh)></a>
+                    <div class="desc">@item.TenSanPham</div>
+                    <div class="gia">@item.Gia</div>
+                    <button id=@item.Id class="add-to-cart btn btn-primary" onclick="tbmuahang(this.id)">
+                        <i class="glyphicon glyphicon-shopping-cart"></i> THÊM VÀO GIỎ HÀNG
+                    </button>
+                </div>
+            </div>*@
+        <div class="responsive">
+            <div class="gallery">
+                <a href="banhmibotoi.html">
+                    <img src="\content\client\images\Monan_Kem\3.png">
+                </a>
+                <div class="desc">@item.Name</div>
+                <div class="gia">@item.Price</div>
+                <div class="add-actions">
+                    <ul class="add-actions-link" style="background-color: darkgray">
+                        <li class="add-cart active"><a href="/Cart/AddItem?productId=@item.ID&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    }
+

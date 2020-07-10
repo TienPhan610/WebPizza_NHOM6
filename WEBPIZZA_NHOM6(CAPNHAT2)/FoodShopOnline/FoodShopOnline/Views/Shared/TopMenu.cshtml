@@ -1,0 +1,28 @@
+﻿@model List<Model.EnityFramework.Menu>
+@using FoodShopOnline.Common;
+<div>
+
+    @{
+        var session = (UserLogin)Session[FoodShopOnline.Common.CommonConstants.User_Session];
+    }
+    @if (session == null)
+    {
+        foreach (var item in Model)
+        {
+            <a href="@item.URL" target="@item.Target"><i class="@item.Icon"></i> @item.Name</a>
+        }
+    }
+    else
+    {
+            <a>Xin Chào!!!!: @session.UserName    </a>
+            <a><i class="fas fa-sign-out-alt"></i>@Html.ActionLink("Đăng Xuất", "Logout", "User")</a>
+    }
+   
+
+    @*    <div class="login">
+            <a href="/Login/Index" id="dnname"><i class="fa fa-fw fa-user fa-lg"></i> Đăng Nhập &nbsp;&nbsp;</a>
+            <a href="registerv2.html" id="dkname"><i class="fa fa-fw fa-user-plus fa-lg"></i> Đăng Kí </a>
+        </div>>*@
+</div>
+
+

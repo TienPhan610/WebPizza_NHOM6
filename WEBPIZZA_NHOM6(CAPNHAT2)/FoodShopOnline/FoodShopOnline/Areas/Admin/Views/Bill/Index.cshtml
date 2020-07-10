@@ -1,0 +1,207 @@
+﻿@model List<Model.EnityFramework.Order>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+@section header{
+    Thông Tin Đơn hàng
+}
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+           aria-selected="true">Chờ xác nhận</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+           aria-selected="false">Đang giao hàng</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+           aria-selected="false">Đã giao hàng</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/Admin/Bill/OrderDetail">Chi Tiết Đơn Hàng</a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>CustomerID</th>
+                        <th>CustomerName</th>
+                        <th>CustomerAdress</th>
+                        <th>CustomerEmail</th>
+                        <th>CustomerMobie</th>
+                        <th>CreatedDate</th>
+                        <th>PaymentMethod</th>
+                        @*<th>PaymentStatus</th>*@
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        if (item.Status != false)
+                        {
+                            continue;
+                        }
+                        <tr id="row_@item.ID">
+                            <td>@item.CustomerID</td>
+                            <td>@item.CustomerName</td>
+                            <td>@item.CustomerAddress</td>
+                            <td>@item.CustomerEmail</td>
+                            <td>@item.CustomerMobile</td>
+                            <td>@item.CreatedDate</td>
+                            <td>@item.PaymentMethod</td>
+                            @*<td>@item.PaymentStatus</td>*@
+                            <td>
+                                @Html.ActionLink("Xác nhận", "XacNhanHoaDon", new { id = item.ID }) @*|
+                                @Html.ActionLink("Huỷ", "Delete", new { id = item.ID })*@
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>CustomerID</th>
+                        <th>CustomerName</th>
+                        <th>CustomerAdress</th>
+                        <th>CustomerEmail</th>
+                        <th>CustomerMobie</th>
+                        <th>CreatedDate</th>
+                        <th>PaymentMethod</th>
+                        @*<th>PaymentStatus</th>*@
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        if (item.Status != false)
+                        {
+                            continue;
+                        }
+                        <tr id="row_@item.ID">
+                            <td>@item.CustomerID</td>
+                            <td>@item.CustomerName</td>
+                            <td>@item.CustomerAddress</td>
+                            <td>@item.CustomerEmail</td>
+                            <td>@item.CustomerMobile</td>
+                            <td>@item.CreatedDate</td>
+                            <td>@item.PaymentMethod</td>
+                            @*<td>@item.PaymentStatus</td>*@
+                            <td>
+                                @Html.ActionLink("Xác nhận đã giao hàng", "XacNhanGiaoHang", new { id = item.ID }) @*|
+                                @Html.ActionLink("Huỷ", "Delete", new { id = item.ID })*@
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>CustomerID</th>
+                        <th>CustomerName</th>
+                        <th>CustomerAdress</th>
+                        <th>CustomerEmail</th>
+                        <th>CustomerMobie</th>
+                        <th>CreatedDate</th>
+                        <th>PaymentMethod</th>
+                        <th>PaymentStatus</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        if (item.Status != true)
+                        {
+                            continue;
+                        }
+                        <tr id="row_@item.ID">
+                            <td>@item.CustomerID</td>
+                            <td>@item.CustomerName</td>
+                            <td>@item.CustomerAddress</td>
+                            <td>@item.CustomerEmail</td>
+                            <td>@item.CustomerMobile</td>
+                            <td>@item.CreatedDate</td>
+                            <td>@item.PaymentMethod</td>
+                            <td>@item.PaymentStatus</td>
+                            <td>@item.Status</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+        @*<div class="card shadow mb-4">
+            <div class="card-body">
+                <a class="btn btn-primary" href="#">Thông Tin Người Mua</a>
+                <a class="btn btn-primary" href="/Admin/Bill/OrderDetail">Chi Tiết Đơn Hàng</a>
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>CustomerID</th>
+                                <th>CustomerName</th>
+                                <th>CustomerAdress</th>
+                                <th>CustomerEmail</th>
+                                <th>CustomerMobie</th>
+                                <th>CreatedDate</th>
+                                <th>PaymentMethod</th>
+                                <th>PaymentStatus</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>CustomerID</th>
+                                <th>CustomerName</th>
+                                <th>CustomerAdress</th>
+                                <th>CustomerEmail</th>
+                                <th>CustomerMobie</th>
+                                <th>CreatedDate</th>
+                                <th>PaymentMethod</th>
+                                <th>PaymentStatus</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr id="row_@item.ID">
+                                    <td>@item.CustomerID</td>
+                                    <td>@item.CustomerName</td>
+                                    <td>@item.CustomerAddress</td>
+                                    <td>@item.CustomerEmail</td>
+                                    <td>@item.CustomerMobile</td>
+                                    <td>@item.CreatedDate</td>
+                                    <td>@item.PaymentMethod</td>
+                                    <td>@item.PaymentStatus</td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>*@
+
+
+
+

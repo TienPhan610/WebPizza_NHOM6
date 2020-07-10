@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Model.EnityFramework.Product>
+@{
+    ViewBag.Title = "MonAnKem_Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="pizza">
+    <br />
+
+    @using (Html.BeginForm("MonAnKem1_Category", "Category", FormMethod.Get))
+    {
+        <p>MÓN ĂN KÈM</p>
+
+        <select name="sort" id="sort">
+            <option value="sort">Sắp xếp</option>
+            <option value="1">Giá tăng dần</option>
+            <option value="-1">Giá giảm dần</option>
+        </select>
+        <button type="submit"><i class="fas fa-search fa-2x"></i></button>
+
+    }
+
+    <hr>
+    @foreach (var item in Model)
+    {
+        <div class="responsive">
+            <div class="gallery">
+                <a href="@Url.Action("MonAn", "ProductDetails", new { id = item.ID })">
+                    <img src="@item.Image">
+                </a>
+                <div class="desc">@item.Name</div>
+                <div class="gia">@item.Price</div>
+                <div class="add-actions">
+                    <ul class="add-actions-link" style="background-color: darkgray">
+                        <li class="add-cart active"><a href="/Cart/AddItem?productId=@item.ID&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    }
+    <div class="clearfix"></div>
+    <div style="padding:6px;"></div>
+    <div class="stt">
+        <ul class="pagination justify-content-center">
+            <li class="page-item active"><a class="page-link" href="/Category/MonAnKem_Category">1</a></li>
+            <li class="page-item"><a class="page-link" href="/Category/MonAnKem2_Category">2</a></li>
+            <li class="page-item"><a class="page-link" href="/Category/MonAnKem2_Category">Next</a></li>
+        </ul>
+    </div>
+    <div class="gototop">
+        <button onclick="topFunction()" id="myBtn" title="Về đầu trang"> <i class="fas fa-arrow-up"></i></button>
+    </div>
+</div>
+
+
