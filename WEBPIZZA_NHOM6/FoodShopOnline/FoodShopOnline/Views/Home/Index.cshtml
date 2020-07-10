@@ -1,0 +1,191 @@
+﻿@model List<Model.EnityFramework.Product>
+@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="\content\client\images\KM\km1.jpg" style="width:100%">
+
+        </div>
+        <div class="item">
+            <img src="\content\client\images\KM\km2.png" style="width:100%">
+        </div>
+
+        <div class="item">
+            <img src="\content\client\images\KM\km3.png" style="width:100%">
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<a name="pizza1"> </a>
+<div class="pizza">
+    <form action="ketquatimkiem.html">
+        <select name="food" id="food">
+            <option value="chọn">Chọn món</option>
+            <option value="pizza">Pizza</option>
+            <option value="monankem">Món Ăn Kèm</option>
+            <option value="miycom">Mì Ý Cơm</option>
+            <option value="giaikhat">Giải Khát</option>
+        </select>
+        <p2>&nbsp;&nbsp;</p2>
+        <p2>Giá từ: </p2>
+        <input id="txtChar" onKeyPress="return isNumberKey(event)" type="text" required>
+        <p2>&nbsp;</p2>
+        <p2>đến: </p2>
+        <input id="txtChar" onKeyPress="return isNumberKey(event)" type="text" required>
+        <p2>&nbsp;&nbsp;</p2>
+        <select name="sort" id="sort">
+            <option value="sort">Sắp xếp</option>
+            <option value="sort1">Bán chạy nhất</option>
+            <option value="sort2">Giá tăng dần</option>
+            <option value="sort3">Giá giảm dần</option>
+        </select>
+        <button type="submit"><i class="fas fa-search fa-2x"></i></button>
+    </form>
+    <br />
+    <p> PIZZA &nbsp; &nbsp; &nbsp; </p>
+    <hr>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="info veggiemania.html"><img src="\content\client\images\ThucDON\0.png"></a>
+            <div class="desc">VEGGIE MANIA</div>
+            <div class="info">Nấm Mỡ, Cà Chua, Ô Liu, Hành tây, Ớt chuông xanh</div>
+            <div class="gia">250.000</div>
+            <div class="add-actions">
+                <ul class="add-actions-link" style="background-color: darkgray">
+                    <li class="add-cart active" style="font-size: 40px"><a href="/Cart/AddItem?productId=1&quantity=1" style="font-size: 15px; text-align: center"> THÊM VÀO GIỎ HÀNG</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="info teriyakichicken.html">
+                <img src="\content\client\images\ThucDON\1.png">
+            </a>
+            <div class="desc">TERIYAKI CHICKEN</div>
+            <div class="info">Sốt Teriyaki, Gà, Nấm Mỡ, Mayonnaise</div>
+            <div class="gia">200.000</div>
+            <div class="add-actions">
+                <ul class="add-actions-link" style="background-color: darkgray">
+                    <li class="add-cart active"><a href="/Cart/AddItem?productId=2&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="info seafood.html">
+                <img src="\content\client\images\ThucDON\2.png">
+            </a>
+            <div class="desc">SEAFOOD DELIGHT</div>
+            <div class="info">Tôm, Mực Ống, Sốt Pizza, Thanh cua</div>
+            <div class="gia">300.000</div>
+            <div class="add-actions">
+                <ul class="add-actions-link" style="background-color: darkgray">
+                    <li class="add-cart active"><a href="/Cart/AddItem?productId=3&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="info almondcitrusseafood.html">
+                <img src="\content\client\images\ThucDON\3.png">
+            </a>
+            <div class="desc">ALMOND CITRUS SEAFOOD</div>
+            <div class="info">Tôm, Sò Điệp, Hạnh Nhân, Sốt can, Ớt chuông đỏ</div>
+            <div class="gia">300.000</div>
+            <div class="add-actions">
+                <ul class="add-actions-link" style="background-color: darkgray">
+                    <li class="add-cart active"><a href="/Cart/AddItem?productId=4&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="info cheesemania .html">
+                <img src="\content\client\images\ThucDON\5.png">
+            </a>
+            <div class="desc">CHEESE MANIA</div>
+            <div class="info">Sốt Cà Chua, Phô Mai Mozzarella</div>
+            <div class="gia">250.000</div>
+            <div class="add-actions">
+                <ul class="add-actions-link" style="background-color: darkgray">
+                    <li class="add-cart active"><a href="/Cart/AddItem?productId=5&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="info chessychickenbacon.html">
+                <img src="\content\client\images\ThucDON\6.png">
+            </a>
+            <div class="desc">CHESSY CHICKEN BACON</div>
+            <div class="info">Sốt Phô Mai, Thịt Gà, Thịt Heo Muối, Cà Chua</div>
+            <div class="gia">270.000</div>
+            <div class="add-actions">
+                <ul class="add-actions-link" style="background-color: darkgray">
+                    <li class="add-cart active"><a href="/Cart/AddItem?productId=6&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="info hawailian.html">
+                <img src="\content\client\images\ThucDON\7.png">
+            </a>
+            <div class="desc">HAWAIIAN</div></a>
+            <div class="info">Sốt Cà Chua, Thịt Dăm Bông, Thơm</div>
+            <div class="gia">200.000</div>
+            <div class="add-actions">
+                <ul class="add-actions-link" style="background-color: darkgray">
+                    <li class="add-cart active"><a href="/Cart/AddItem?productId=7&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="responsive" id="Pz08">
+        <div class="gallery">
+            <a href="info kidmania.html">
+                <img src="\content\client\images\ThucDON\8.png">
+            </a>
+            <div class="desc">KID MANIA</div>
+            <div class="info">Thịt Heo Muối, Bắp, Trứng Cút</div>
+            <div class="gia">240.000</div>
+            <div class="add-actions">
+                <ul class="add-actions-link" style="background-color: darkgray">
+                    <li class="add-cart active"><a href="/Cart/AddItem?productId=8&quantity=1" style="font-size: 15px">THÊM VÀO GIỎ HÀNG</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div style="padding:6px;"></div>
+    <div class="stt">
+        <ul class="pagination justify-content-center">
+            <!--<li class="page-item disabled"><a class="page-link" href="javascript:void(0);">Pre</a></li>-->
+            <li class="page-item active"><a class="page-link" href="/Home/Index">1</a></li>
+            <li class="page-item"><a class="page-link" href="/Home/Pizza2">2</a></li>
+            <li class="page-item"><a class="page-link" href="/Home/Pizza2">Next</a></li>
+        </ul>
+    </div>
+</div>
+

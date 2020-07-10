@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodShopOnline", "FoodShopOnline\FoodShopOnline.csproj", "{E41BB67E-C5CD-4299-BD0C-AD39F58AD5C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{52BC4BFB-831D-4D81-99C5-34531BB07662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E41BB67E-C5CD-4299-BD0C-AD39F58AD5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41BB67E-C5CD-4299-BD0C-AD39F58AD5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41BB67E-C5CD-4299-BD0C-AD39F58AD5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41BB67E-C5CD-4299-BD0C-AD39F58AD5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BC4BFB-831D-4D81-99C5-34531BB07662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BC4BFB-831D-4D81-99C5-34531BB07662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BC4BFB-831D-4D81-99C5-34531BB07662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BC4BFB-831D-4D81-99C5-34531BB07662}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0731163-3B72-4695-B6FE-CC4CB3E1D143}
+	EndGlobalSection
+EndGlobal

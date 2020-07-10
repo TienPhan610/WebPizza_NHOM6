@@ -1,0 +1,11 @@
+﻿@model List<Model.EnityFramework.Menu>
+<div>
+    @foreach(var item in Model)
+    {
+        <a href="@item.URL" target="@item.Target"><i class="@item.Icon"></i> @item.Name</a>
+    }
+    @*<a href="/Menu/KhuyenMai"><i class="fas fa-bullhorn"></i> Khuyến Mãi</a>
+    <a href="cart.html"><i class="fas fa-shopping-cart"></i> Giỏ Hàng</a>
+    <a href="/Menu/CuaHang"><i class="fa fa-fw fa-store"></i> Cửa Hàng</a>
+    <a href="/Admin/Login/Index"><i class="fa fa-fw fa-user fa-lg"></i> Quản Lý</a>*@
+</div>
